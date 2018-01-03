@@ -1,0 +1,91 @@
+body {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+/*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block*/
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  width: 400px;
+  /*background: yellow;*/
+  border: 2px solid black;
+  margin: 30px;
+  font-size: 34px;
+  color: white;
+  /*align-content: center;*/
+}
+
+.wire1,
+.wire2,
+.wire3 {
+  width: 50px;
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+}
+
+.wire1 {
+  background: red;
+}
+
+.wire2 {
+  background: green;
+}
+.wire3 {
+  background: blue;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  height: 345px;
+  width: 1000px;
+  border: 2px solid black;
+}
+
+.hint1-outer,
+.hint2-outer,
+.hint3-outer {
+  width: 250px;
+  height: 300px;
+  /*border: 2px solid black;*/
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hint1-title,
+.hint2-title,
+.hint3-title {
+  margin: 15px 0 15px 0;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.hint1-text,
+.hint2-text,
+.hint3-text {
+  visibility: hidden;
+  width: 80%;
+  font-size: 20px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 15px 0 15px 0;
+  background: black;
+  color: white;
+  padding: 20px 10px;
+}
+
+/*$("p").mouseout(function(){
+    $("p").css("background-color", "gray");
+});*/
