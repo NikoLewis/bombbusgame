@@ -22,22 +22,26 @@ body {
 .wire1,
 .wire2,
 .wire3 {
-  width: 50px;
+  width: 30px;
   height: 300px;
   text-align: center;
   vertical-align: middle;
   line-height: 300px;
 }
 
-.wire1 {
+.color1 {
   background: red;
 }
 
-.wire2 {
+.color2 {
   background: green;
 }
-.wire3 {
+.color3 {
   background: blue;
+}
+
+.color1-cut {
+  background: black;
 }
 .container2 {
   display: flex;
