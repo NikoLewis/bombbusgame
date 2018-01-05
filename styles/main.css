@@ -31,12 +31,13 @@ input {
   font-size: 23px;
   background: white;
 }
-
-button > img {
+/*button {
   height: 60px;
-  width: 170px;
-  /*padding: 5px;*/
-}
+  width: 150px;
+  color: white;
+  font-size: 23px;
+  background: white;
+}*/
 
 h2 {
   padding: 20px;
