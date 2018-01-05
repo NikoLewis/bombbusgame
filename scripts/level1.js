@@ -146,7 +146,7 @@ $('.container1').click(function(event) {
 
       if (riddles[whichIndex].checked === riddles[whichIndex].goal)
         alert(`Good work! Bomb diffused.`);
-    } else {
+    } else if (storeEvent.target.title == 'false') {
       alert(`Wrong wire dummy, now you're dead.`);
     }
 
