@@ -4,6 +4,10 @@ body {
   flex-direction: column;
   /*justify-content: center;*/
   align-items: center;
+  /*cursor: url(
+    http://www.picgifs.com/food-and-drinks/food-and-drinks/eggs/food-and-drinks-eggs-252212.gif,
+    pointer
+  );*/
 }
 /*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block*/
 .container1 {
@@ -16,9 +20,15 @@ body {
   margin: 30px;
   font-size: 34px;
   color: white;
+  /*cursor: pointer;*/
+
   /*align-content: center;*/
 }
 
+.container1:hover {
+  /*cursor: url(http://www.picgifs.com/food-and-drinks/food-and-drinks/eggs/food-and-drinks-eggs-252212.gif);*/
+  cursor: url('../images/wirecutter.png') 80 0, auto;
+}
 .wire1,
 .wire2,
 .wire3 {
@@ -31,6 +41,7 @@ body {
 
 .color1 {
   background: red;
+  /*background: url('../images/redwire-cut.png');*/
 }
 
 .color2 {
@@ -40,9 +51,6 @@ body {
   background: blue;
 }
 
-.color1-cut {
-  background: black;
-}
 .container2 {
   display: flex;
   justify-content: space-around;

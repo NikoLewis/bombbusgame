@@ -126,23 +126,32 @@ function dynamicRiddle(argument) {
 //next step make it so that a winning or losing  module covers the screen with a restart or adnvace button
 
 $('.container1').click(function(event) {
+  var storeEvent = event;
   // trying drakes dataset suggestion
   // console.log(` dataset? ${event.target.dataset}`);
-  event.target.classList.toggle('color1-cut', 'black');
+  console.log('event.target', event.target);
+  console.log(`.wire1 .color1)`, $('.color1')[0]);
+  if (event.target === $('.color1')[0]) {
+    $('.color1').css(`background`, `url('../images/redwire-cut.png')`);
+  } else if (event.target === $('.color2')[0]) {
+    $('.color2').css(`background`, `url('../images/greenwire-cut.png')`);
+  } else if (event.target === $('.color3')[0]) {
+    $('.color3').css(`background`, `url('../images/bluewire-cut.png')`);
+  }
 
-  setTimeout(function(event) {
-    console.log('hi from setTimeout', event);
-    // if (event.target.title == 'true') {
-    //   riddles[whichIndex].checked += 1;
+  setTimeout(function() {
+    // console.log('hi from setTimeout', storeEvent);
+    if (storeEvent.target.title == 'true') {
+      riddles[whichIndex].checked += 1;
 
-    //   if (riddles[whichIndex].checked === riddles[whichIndex].goal)
-    //     alert(`Good work! Bomb diffused.`);
-    // } else {
-    //   alert(`Wrong wire dummy, now you're dead.`);
-    // }
+      if (riddles[whichIndex].checked === riddles[whichIndex].goal)
+        alert(`Good work! Bomb diffused.`);
+    } else {
+      alert(`Wrong wire dummy, now you're dead.`);
+    }
 
-    // console.log(` t or f? ${event.target.title}`);
-  }, 1500);
+    console.log(` t or f? ${event.target.title}`);
+  }, 900);
 });
 
 $('.hint1-title').mouseenter(function() {

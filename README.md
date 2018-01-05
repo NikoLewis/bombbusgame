@@ -51,9 +51,9 @@
 * Fix merge conflicts w/ vim ✅
 * Code dynamic riddles algorithm ✅
 * Code checking that win conditions is completely met after each click ✅
-* Improve bomb wiring design add toggle to cut wires
-* Level one win and loss improvements
-* Create wire cutter cursor when hovering over bomb wiring
+* Improve bomb wiring design add toggle to cut wires ✅
+* Level one win and loss modals
+* Create wire cutter cursor when hovering over bomb wiring ✅
 * Bonus: start coding other levels ???
 
 **Saturday**
