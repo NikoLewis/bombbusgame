@@ -144,10 +144,39 @@ $('.container1').click(function(event) {
     if (storeEvent.target.title == 'true') {
       riddles[whichIndex].checked += 1;
 
-      if (riddles[whichIndex].checked === riddles[whichIndex].goal)
-        alert(`Good work! Bomb diffused.`);
+      if (riddles[whichIndex].checked === riddles[whichIndex].goal) {
+        $('.modal-gif').css(
+          `background`,
+          `url('https://media.giphy.com/media/eBqUy3ik6P2vK/giphy.gif') no-repeat center center`
+        );
+
+        $('.modal-text').text(`Winner!!!`);
+
+        $('.modal-container').toggle(function(argument) {
+          //this works but throws error here
+          $('.modal-container').css('display');
+        });
+
+        $('.restart').click(function(argument) {
+          location.href = './level1.html';
+        });
+        $('.quit').click(function(argument) {
+          location.href = '../index.html';
+        });
+        // alert(`Good work! Bomb diffused.`);
+      }
     } else if (storeEvent.target.title == 'false') {
-      alert(`Wrong wire dummy, now you're dead.`);
+      $('.modal-container').toggle(function(argument) {
+        this.css('display');
+      });
+
+      $('.restart').click(function(argument) {
+        location.href = './level1.html';
+      });
+      $('.quit').click(function(argument) {
+        location.href = '../index.html';
+      });
+      // alert(`Wrong wire dummy, now you're dead.`);
     }
 
     console.log(` t or f? ${event.target.title}`);

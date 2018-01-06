@@ -52,11 +52,18 @@
 * Code dynamic riddles algorithm ✅
 * Code checking that win conditions is completely met after each click ✅
 * Improve bomb wiring design add toggle to cut wires ✅
-* Level one win and loss modals
+* Level one win and loss modals ✅
 * Create wire cutter cursor when hovering over bomb wiring ✅
-* Bonus: start coding other levels ???
 
 **Saturday**
+
+* Level one win and loss modals ✅
+* Level one modals styling ✅
+* Level one view styling ✅
+* Intro view styling (in-progress)
+* landing view creation
+* Bonus: start coding other levels ???
+* Bonus Bonus: upgrade modals to accomodate new levels???
 
 **Sunday**
 
