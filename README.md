@@ -63,16 +63,22 @@
 
 **Sunday**
 
+* Intro view styling ✅
+
 **Monday**
 
-* Intro view styling (In-progress)
-* landing view creation
-* Bonus: start coding other levels ???
-* Bonus Bonus: upgrade modals to accomodate new levels???
-* polishing
+* MVP reached✅
 * Create Power Point
+* Finalize Readme
+* Reach goals:
+
+  * landing view creation
+  * Bonus: start coding other levels ???
+  * Bonus Bonus: upgrade modals to accomodate new levels???
 
 **Tuesday**
+
+* polishing and refactoring
 
 * Final Presentation
   ### Tech Stack:
