@@ -1,0 +1,33 @@
+body {
+  /*display: flex;*/
+  /*color: purple;*/
+  background: url('https://media.giphy.com/media/xULW8u9tnAK49fIdXi/giphy.gif')
+    no-repeat center center;
+  background-size: 100% 850px;
+  height: 720px;
+  width: 900px;
+  /*width: 100%;*/
+}
+
+.bus-button {
+  position: absolute;
+  /*border: 4px solid red;*/
+  height: 220px;
+  width: 575px;
+  /*top: 100;*/
+  right: 0;
+  bottom: 0;
+  /*margin-bottom: -500px;*/
+}
+
+/*.to-intro {
+  position: absolute;
+
+  height: 120px;
+  width: 575px;
+  top: 100;
+  left: 0.3;
+  bottom: 0.3;
+  background: black;
+  color: white;
+}*/

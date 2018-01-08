@@ -1,8 +1,12 @@
-### Title: ( No Name yet)
+### Title: BOMB
 
 # Bomb Diffusing Logic Game
 
 ### Rules:
+
+1. Read all hints and remember them.</li>
+2. Use logic to dechiper hints before deciding which wires to cut before the timer runs out.
+3. Don't Die.
 
 ### Minimum Viable Product (MVP):
 
