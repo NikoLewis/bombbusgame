@@ -60,14 +60,17 @@
 * Level one win and loss modals ✅
 * Level one modals styling ✅
 * Level one view styling ✅
-* Intro view styling (in-progress)
-* landing view creation
-* Bonus: start coding other levels ???
-* Bonus Bonus: upgrade modals to accomodate new levels???
 
 **Sunday**
 
 **Monday**
+
+* Intro view styling (In-progress)
+* landing view creation
+* Bonus: start coding other levels ???
+* Bonus Bonus: upgrade modals to accomodate new levels???
+* polishing
+* Create Power Point
 
 **Tuesday**
 
